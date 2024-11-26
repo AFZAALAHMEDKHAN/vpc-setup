@@ -52,7 +52,7 @@ resource "aws_lb_target_group_attachment" "r1-tg-attach" {
 
 
 resource "aws_lb_listener" "listener-r1" {
-  provider = aws.region1
+  provider          = aws.region1
   load_balancer_arn = aws_lb.elb_region1.arn
   port              = "80"
   protocol          = "HTTP"
@@ -112,7 +112,7 @@ resource "aws_lb_target_group_attachment" "r2-tg-attach" {
 }
 
 resource "aws_lb_listener" "listener-r2" {
-  provider = aws.region2
+  provider          = aws.region2
   load_balancer_arn = aws_lb.elb_region2.arn
   port              = "80"
   protocol          = "HTTP"
