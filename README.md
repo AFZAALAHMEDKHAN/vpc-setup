@@ -1,4 +1,4 @@
-                                                                                      # VPC Setup Documentation
+# VPC Setup Documentation
 
 Overview:
 The repository vpc-setup contains Terraform scripts to configure Virtual Private Clouds (VPCs) and related networking components across multiple AWS regions. 
